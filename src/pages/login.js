@@ -20,6 +20,8 @@ export default function Login() {
   }, []);
 
   return (
-    <p>I am the login page</p>
+    <div className='container flex mx-auto max-width-screen-md items-center h-screen'>
+      <p>I am a login page</p>
+    </div>
   )
 }
